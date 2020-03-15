@@ -21,6 +21,7 @@ Page({
             success: function (res) {
               console.log(res.userInfo.avatarUrl)
               wx.setStorageSync("userhead", res.userInfo.avatarUrl)
+              that.getuserhead()
             }
           })
           that.getStorage()
