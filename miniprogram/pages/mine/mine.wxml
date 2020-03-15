@@ -1,0 +1,61 @@
+<view class="mine" wx:if="{{userid}}">
+  <view class="mine_header">
+    <view class="head_img">
+      <image src="{{userheadimg}}"></image>
+    </view>
+
+    <image class="bg_image" src="../../images/order-bg.png"></image>
+  </view>
+
+  <Danzi>
+    <text slot="headername">我的订单</text>
+    <text slot="headernum">全部订单</text>
+    <text slot="list1">待付款</text>
+    <text slot="list2">待发货</text>
+    <text slot="list3">已发货</text>
+    <text slot="list4">退款售后</text>
+  </Danzi>
+
+  <Danzi>
+    <text slot="headername">我的拼单</text>
+    <text slot="headernum">全部拼单</text>
+    <text slot="list1">待付款</text>
+    <text slot="list2">拼单中</text>
+    <text slot="list3">拼单成功</text>
+    <text slot="list4">拼单失败</text>
+  </Danzi>
+
+</view>
+
+  <!-- wx:else -->
+
+  <image wx:if="{{userid === false}}" src="../../images/timg.jpg" style="width:100%; height:110%; position:absolute; z-index:-1"></image>
+
+  <view class="else" wx:if="{{userid === false}}">
+    <view class="else_title">
+      
+    </view>
+
+    <view class="header_img">
+    
+    </view>
+
+    <button 
+      lang="zh_CN" 
+      open-type="getUserInfo"
+      bindgetuserinfo="onGotUserInfo"
+    >
+      授权登陆
+    </button>
+
+  </view>
+
+  <!-- wx:if -->
+
+<button 
+  class="unlogin" 
+  wx:if="{{userid}}"
+  bindtap="unlogin"
+  >
+    退出登陆
+  </button>

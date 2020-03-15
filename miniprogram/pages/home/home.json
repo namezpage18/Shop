@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "Banner": "../../components/banner/banner",
+    "List": "../../components/list/list",
+    "Tuijian": "../../components/tuijian/tuijian",
+    "Shopbox": "../../components/shopbox/shopbox",
+    "Nav": "../../components/nav/nav",
+    "Zhidemai":"../../components/zhidemai/zhidemai"
+  }
+}

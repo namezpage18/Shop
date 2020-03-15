@@ -1,0 +1,40 @@
+.tuijian-box {
+  width: 100%;
+  height: 600rpx;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 20rpx solid gainsboro
+}
+.tuijian {
+  width: 50%;
+  height: 300rpx;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.tuijian-right-border {
+  border-right: 1rpx solid gainsboro;
+}
+.tuijian-bottom-border {
+  border-bottom: 1rpx solid gainsboro
+}
+.tuijian image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.tuijian-title {
+  font-size: 28rpx;
+  margin-bottom: 4rpx;
+}
+.tuijian-msg {
+  color: gray;
+  font-size: 24rpx;
+}
+.tuijian-img-box {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-around
+}
+.tuijian-img-box image {
+  width: 120rpx;
+  height: 120rpx;
+}

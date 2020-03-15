@@ -1,0 +1,14 @@
+<view class="zhidemai_header">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view id="demo1" 
+      class="{{list_type === index?'ck_scroll-view-item_H scroll-view-item_H demo-text-2':'scroll-view-item_H demo-text-2'}}" 
+      data-type="{{index}}" 
+      bindtap="changes" 
+      wx:for="{{list_data}}" 
+      wx:key="index"
+      >
+        {{item}}
+      </view>
+    </scroll-view>
+  </view>
+<Zhidemai msg="{{msg}}"></Zhidemai>

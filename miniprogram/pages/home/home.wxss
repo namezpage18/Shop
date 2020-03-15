@@ -1,0 +1,56 @@
+.jinxuan-nav {
+  display: flex;
+  padding: 0 20rpx;
+  height: 80rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid gainsboro;
+}
+.jinxuan-nav .jingxuan{
+  font-size: 28rpx;
+}
+.jinxuan-nav .jingxuan-num {
+  font-size: 28rpx;
+  color: gray;
+}
+.button_box {
+  border-bottom: 1rpx solid gainsboro;
+
+}
+.home_quanbu_button {
+  border: 1rpx solid gray;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  background-color: white;
+  color: gray;
+  font-weight: normal;
+}
+
+/* 底部样式 */
+.zhidemai_header {
+  height: 100rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid gainsboro;
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx
+}
+.page-section-spacing{
+  margin-top: 60rpx;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  margin: 0 30rpx;
+  padding-bottom: 10rpx;
+}
+/* 点击时 */
+.ck_scroll-view-item_H {
+  border-bottom: 4rpx solid orangered;
+  color: orangered;
+}

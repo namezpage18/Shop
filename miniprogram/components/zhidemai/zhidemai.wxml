@@ -1,0 +1,11 @@
+<view class="zhidemai_box">
+  <Shopbox catchtap="goxiangqing" wx:for="{{msg}}" wx:key="index" data-type="{{index}}">
+    <image slot="img" src="{{item.shop_img}}" data-type="{{index}}"></image>
+    <text slot="title" data-type="{{index}}">{{item.title}}</text>
+    <text slot="sale" data-type="{{index}}">{{item.sale}}</text>
+    <text slot="msg" data-type="{{index}}">{{item.msg}}</text>
+    <text slot="place" data-type="{{index}}">{{item.place}}</text>
+    <image slot="place_img" src="{{item.place_img}}" data-type="{{index}}"></image>
+  </Shopbox>
+  <view></view>
+</view>

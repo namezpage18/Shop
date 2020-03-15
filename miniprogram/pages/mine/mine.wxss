@@ -1,0 +1,70 @@
+page {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.mine_header {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.bg_image {
+  width: 100%;
+  height: 300rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.mine_header .head_img {
+  width: 180rpx;
+  height: 180rpx;
+  background-color: gainsboro;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 30rpx;
+  border: 2rpx solid white;
+  overflow: hidden;
+}
+
+.unlogin {
+  position: absolute;
+  bottom: 40rpx;
+  right: 0;
+  left: 0;
+  margin: auto;
+  background-color: red;
+  color: white;
+}
+.else {
+  display: flex;
+  height: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+}
+.else_title {
+  text-align: center;
+  font-size: 40rpx;
+  margin-top: 100rpx;
+  color: seagreen;
+}
+.header_img {
+  width: 160rpx;
+  height: 160rpx;
+  background-color: ghostwhite;
+  border-radius: 50%;
+}
+.head_img image {
+  width: 180rpx;
+  height: 180rpx;
+}
+.else button {
+  border: 1rpx solid green;
+  color: green;
+}

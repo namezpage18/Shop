@@ -1,0 +1,41 @@
+<view class="dingdan_box">
+  <view class="dingdan_header">
+    <view class="my_dingdan">
+    <slot name="headername"></slot>
+    </view>
+
+    <view class="many_dingdan">
+    <slot name="headernum"></slot>
+    </view>
+  </view>
+
+  <view class="dingdan_mine">
+    <view class="dingdan_list_box">
+      <image src="../../images/5.png"></image>
+      <view>
+        <slot name="list1"></slot>
+      </view>
+    </view>
+
+    <view class="dingdan_list_box">
+      <image src="../../images/5.png"></image>
+      <view>
+        <slot name="list2"></slot>
+      </view>
+    </view>
+
+    <view class="dingdan_list_box">
+      <image src="../../images/5.png"></image>
+      <view>
+        <slot name="list3"></slot>
+      </view>
+    </view>
+
+    <view class="dingdan_list_box">
+      <image src="../../images/5.png"></image>
+      <view>
+        <slot name="list4"></slot>
+      </view>
+    </view>
+  </view>
+</view>

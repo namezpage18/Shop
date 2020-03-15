@@ -1,0 +1,26 @@
+/* components/list/list.wxss */
+.list-box{
+  width: 100%;
+  height: 160rpx;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid gainsboro;
+}
+.list {
+  width: 160rpx;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  color: gray;
+}
+.list image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.list view {
+  font-size: 28rpx;
+}

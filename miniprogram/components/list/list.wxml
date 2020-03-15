@@ -1,0 +1,28 @@
+<view class="list-box">
+
+  <view class="list">
+    <image src="http://zp2519066.gz01.bdysite.com/htyh/42681149794280927188pindan.jpg"></image>
+    <view>热门拼单</view>
+  </view>
+
+  <view class="list">
+    <image src="http://zp2519066.gz01.bdysite.com/htyh/16275149794280517439fanli.jpg"></image>
+    <view>签到抽奖</view>
+  </view>
+
+  <view class="list">
+    <image src="http://zp2519066.gz01.bdysite.com/htyh/27497149794281969388v.jpg"></image>
+    <view>VIP</view>
+  </view>
+
+  <view class="list">
+    <image src="http://zp2519066.gz01.bdysite.com/htyh/9173014979428238845xinshouyingdao.jpg"></image>
+    <view>新人必看</view>
+  </view>
+
+  <view class="list">
+    <image src="http://zp2519066.gz01.bdysite.com/htyh/faab6f03ff9e51259de19768b82fac63.jpg"></image>
+    <view>晒单合集</view>
+  </view>
+
+</view>

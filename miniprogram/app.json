@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/cart/cart",
+    "pages/mine/mine",
+    "pages/buy/buy",
+    "pages/shop/shop",
+    "pages/xiangqing/xiangqing"
+    
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "Home",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/buy/buy",
+        "text": "Buy",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "Shop",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/33.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "Mine",
+        "iconPath": "images/4.png",
+        "selectedIconPath": "images/44.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

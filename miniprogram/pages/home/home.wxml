@@ -1,0 +1,36 @@
+<view>
+  <Banner></Banner>
+  <List></List>
+  <Tuijian></Tuijian>
+  <view class="jinxuan-nav">
+    <view class="jingxuan">
+      精选活动
+    </view>
+    <view class="jingxuan-num">
+      全部{{shop.length}}个
+    </view>
+  </view>
+  <Shopbox wx:for="{{shop}}" wx:key="index" bindtap="goxiangqing" data-type="{{index}}">
+    <image slot="img" src="{{item.shop_img}}" data-type="{{index}}"></image>
+    <text slot="title" data-type="{{index}}">{{item.title}}</text>
+    <text slot="sale" data-type="{{index}}">{{item.sale}}</text>
+    <text slot="msg" data-type="{{index}}">{{item.msg}}</text>
+    <text slot="place" data-type="{{index}}">{{item.place}}</text>
+    <image slot="place_img" src="{{item.place_img}}" data-type="{{index}}"></image>
+  </Shopbox>
+  <!-- 底部 -->
+  <view class="zhidemai_header">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view id="demo1" 
+      class="{{list_type === index?'ck_scroll-view-item_H scroll-view-item_H demo-text-2':'scroll-view-item_H demo-text-2'}}" 
+      data-type="{{index}}" 
+      bindtap="changes" 
+      wx:for="{{list_data}}" 
+      wx:key="index"
+      >
+        {{item}}
+      </view>
+    </scroll-view>
+  </view>
+<Zhidemai msg="{{homemsg}}"></Zhidemai>
+</view>

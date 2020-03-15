@@ -1,0 +1,30 @@
+<view class="cartbox">
+  <view class="cartbox_left">
+    <slot name="img"></slot>
+  </view>
+
+  <view class="cartbox_right">
+    <view class="cartbox_title">
+      <slot name="title"></slot>
+    </view>
+
+    <view class="cartbox_parse">
+      <slot name="parse"></slot>
+    </view>
+
+    <view class="addnum" bindtap="jian">
+      <view class="jian">
+        <slot name="jian"></slot>
+      </view>
+
+      <view class="num">
+        <slot name="num"></slot>
+      </view>
+
+      <view class="jia" bindtap="jia">
+        <slot name="jia"></slot>
+      </view>
+    </view>
+  </view>
+
+</view>

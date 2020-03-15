@@ -1,0 +1,54 @@
+<view class="tuijian-box">
+
+  <view class="tuijian , tuijian-right-border , tuijian-bottom-border" >
+    <view class="tuijian-title">
+      超值爆品
+    </view>
+    <view class="tuijian-msg">
+      精选每日最值得买商品
+    </view>
+    <view class="tuijian-img-box">
+      <image src="{{shoplist[0].shop_img}}"></image>
+      <image src="{{shoplist[1].shop_img}}"></image>
+    </view>
+  </view>
+
+  <view class="tuijian , tuijian-bottom-border">
+    <view class="tuijian-title">
+      超值爆品
+    </view>
+    <view class="tuijian-msg">
+      精选每日最值得买商品
+    </view>
+    <view class="tuijian-img-box">
+      <image src="{{shoplist[2].shop_img}}"></image>
+      <image src="{{shoplist[3].shop_img}}"></image>
+    </view>
+  </view>
+
+  <view class="tuijian , .tuijian-right-border">
+    <view class="tuijian-title">
+      超值爆品
+    </view>
+    <view class="tuijian-msg">
+      精选每日最值得买商品
+    </view>
+    <view class="tuijian-img-box">
+      <image src="{{shoplist[4].shop_img}}"></image>
+      <image src="{{shoplist[5].shop_img}}"></image>
+    </view>
+  </view>
+
+  <view class="tuijian">
+    <view class="tuijian-title">
+      超值爆品
+    </view>
+    <view class="tuijian-msg">
+      精选每日最值得买商品
+    </view>
+    <view class="tuijian-img-box">
+      <image src="{{shoplist[6].shop_img}}"></image>
+      <image src="{{shoplist[7].shop_img}}"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,55 @@
+<view class="xiangqing_box">
+  <view class="xiangqing_img_box">
+    <image src="{{id.shop_img}}">
+
+    </image>
+  </view>
+
+  <view class="shop_title">
+    {{id.msg}}
+  </view>
+
+  <view class="prase">
+    {{id.sale}}
+  </view>
+
+
+
+  <view class="place_box">
+    <image src="{{id.place_img}}">
+
+    </image>
+
+    <view class="place">
+      {{id.place}}
+    </view>
+  </view>
+
+
+</view>
+<!-- 购买 -->
+<view class="cart_box">
+  <view class="cart" bindtap="cart">
+    <image src="../../images/5.png"></image>
+    <view>
+      购物车
+    </view>
+  </view>
+
+  <view class="get">
+    <image src="{{shoucang?'../../images/6.png':'../../images/hongxin.png'}}" bindtap="shoucang"></image>
+    <view>
+      收藏
+    </view>
+  </view>
+
+  <view class="button">
+    <view class="add" bindtap="addcart">
+      加入购物车
+    </view>
+
+    <view class="buy">
+      立即购买
+    </view>
+  </view>
+</view>

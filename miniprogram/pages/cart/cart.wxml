@@ -1,0 +1,7 @@
+<Cartbox wx:for="{{thismsg}}" wx:key="index">
+  <image slot="img" src="{{item.shop_img}}"></image>
+  <text slot="title">{{item.msg}}</text>
+  <text slot="num">{{num[index]}}</text>
+  <text slot="jian" bindtap="jian" data-type="{{message[index]._id}}">-</text>
+  <text slot="jia" bindtap="jia" data-type="{{item}}">+</text>
+</Cartbox>

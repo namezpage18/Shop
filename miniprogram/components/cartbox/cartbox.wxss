@@ -1,0 +1,51 @@
+.cartbox {
+  display: flex;
+  margin: 20rpx;
+  background-color: white;
+  padding: 30rpx;
+}
+.cartbox .cartbox_left {
+  width: 200rpx;
+  height: 200rpx;
+}
+.cartbox .cartbox_left image {
+  width: 200rpx;
+  height: 200rpx;
+}
+.cartbox_right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-right: 40rpx;
+}
+.addnum {
+  display: flex;
+  margin-left: 300rpx;
+}
+.addnum .jian {
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  border: 1rpx solid gray;
+  text-align: center;
+  line-height: 40rpx;
+  border-top-left-radius: 10rpx;
+  border-bottom-left-radius: 10rpx;
+}
+.addnum .num {
+  width: 80rpx;
+  height: 40rpx;
+  border: 1rpx solid gray;
+  text-align: center;
+}
+.addnum .jia {
+  width: 40rpx;
+  height: 40rpx;
+  border: 1rpx solid gray;
+  text-align: center;
+  line-height: 40rpx;
+  border-top-right-radius: 10rpx;
+  border-bottom-right-radius: 10rpx;
+}

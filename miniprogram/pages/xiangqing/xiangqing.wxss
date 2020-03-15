@@ -1,0 +1,92 @@
+page, .xiangqing_box {
+  height: 100%;
+}
+.xiangqing_box .xiangqing_img_box {
+  height: 50%
+}
+.xiangqing_box .xiangqing_img_box image{
+  width: 100%;
+  height: 100%;
+}
+.shop_title {
+  box-sizing: border-box;
+  padding: 30rpx;
+  font-weight: bold;
+}
+.prase {
+  margin-left: 30rpx;
+  color: red;
+}
+.place_box {
+  display: flex;
+  align-items: center;
+  margin-left: 20rpx;
+  margin-top: 30rpx;
+}
+.place_box image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 10rpx;
+}
+
+/*  */
+.cart_box {
+  width: 100%;
+  height: 120rpx;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  box-shadow: 0 -5rpx 10rpx gainsboro;
+}
+.cart {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 20rpxk
+}
+.cart image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.cart view {
+  font-size: 26rpx;
+  color: gray
+}
+.get {
+  width: 15%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.get image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.get view {
+  font-size: 26rpx;
+  color: gray;
+}
+.button {
+  width: 70%;
+  display: flex;
+}
+.button .add {
+  background-color: tomato;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 120rpx;
+  color: white;
+}
+.button .buy {
+  background-color: red;
+  flex: 1;
+  font-size: 36rpx;
+  text-align: center;
+  line-height: 120rpx;
+  color: white;
+}

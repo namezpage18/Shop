@@ -1,0 +1,35 @@
+<view class="shop-box">
+
+  <view class="shop-box-left">
+
+    <slot name="img"></slot>
+
+  </view>
+
+  <view class="shop-box-right">
+
+    <view class="shop-box-title">
+       <slot name="title"></slot>
+    </view>
+
+    <view class="shop-sale">
+        <slot name="sale"></slot>
+    </view>
+
+    <view class="shop-msg">
+      <slot name="msg"></slot>
+    </view>
+
+    <view class="place">
+
+      <slot name="place_img"></slot>
+
+      <view>
+        <slot name="place"></slot>
+      </view>
+
+    </view>
+
+
+  </view>
+</view>
