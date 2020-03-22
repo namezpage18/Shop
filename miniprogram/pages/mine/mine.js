@@ -7,6 +7,13 @@ Page({
     userid:false,
     userheadimg:""
   },
+
+  gocart() {
+    wx.navigateTo({
+      url: '../cart/cart',
+    })
+  },
+
   // 用户授权 读取用户信息
   onGotUserInfo() {
     wx.showLoading({

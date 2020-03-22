@@ -5,3 +5,6 @@
   <text slot="jian" bindtap="jian" data-type="{{message[index]._id}}">-</text>
   <text slot="jia" bindtap="jia" data-type="{{item}}">+</text>
 </Cartbox>
+<view class="upck" wx:if="{{message.length == 0}}">
+  {{upck}}
+</view>

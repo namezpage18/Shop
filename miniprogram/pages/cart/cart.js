@@ -9,7 +9,7 @@ Page({
     num:[],
     message:[],
     thismsg:[],
-
+    upck:""
   },
 
   jian(e) {
@@ -76,10 +76,12 @@ Page({
           that.setData({
             num:arr1,
             message:arr4,
-            thismsg:arr3
+            thismsg:arr3,
+            upck:"购物车中暂无商品"
           })
           console.log(that.data.message)
           console.log(that.data.thismsg)
+
         })
       },
     })

@@ -10,28 +10,28 @@
   </view>
 
   <view class="dingdan_mine">
-    <view class="dingdan_list_box">
+    <view class="dingdan_list_box" bindtap="gocart">
       <image src="../../images/5.png"></image>
       <view>
         <slot name="list1"></slot>
       </view>
     </view>
 
-    <view class="dingdan_list_box">
+    <view class="dingdan_list_box" bindtap="gocart">
       <image src="../../images/5.png"></image>
       <view>
         <slot name="list2"></slot>
       </view>
     </view>
 
-    <view class="dingdan_list_box">
+    <view class="dingdan_list_box" bindtap="gocart">
       <image src="../../images/5.png"></image>
       <view>
         <slot name="list3"></slot>
       </view>
     </view>
 
-    <view class="dingdan_list_box">
+    <view class="dingdan_list_box" bindtap="gocart">
       <image src="../../images/5.png"></image>
       <view>
         <slot name="list4"></slot>

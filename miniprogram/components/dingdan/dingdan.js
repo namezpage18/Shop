@@ -21,6 +21,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    gocart() {
+      wx.navigateTo({
+        url: '../../pages/cart/cart',
+      })
+    }
   }
 })
